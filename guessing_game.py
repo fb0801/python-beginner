@@ -1,6 +1,6 @@
 
 secret_word=""
-hidden_word =""
+hidden_word =["Follow", "Peter", "Mike", "Ashley", "Giraffe"]
 guess=""
 guess_count = 0
 guess_limit = 3
