@@ -1,8 +1,8 @@
 import random
 
 
-secret_word=""
-hidden_word =["Follow", "Peter", "Mike", "Ashley", "Giraffe"]
+secret_word=[]
+hidden_word =["Follow", "Peter", "Mike", "Ashley", "Giraffe","Dragon"]
 guess=""
 guess_count = 0
 guess_limit = 3
