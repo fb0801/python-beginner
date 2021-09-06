@@ -1,3 +1,5 @@
+import random
+
 
 secret_word=""
 hidden_word =["Follow", "Peter", "Mike", "Ashley", "Giraffe"]
@@ -7,7 +9,13 @@ guess_limit = 3
 out_of_guess = False
 
 
+random_word = random.randint(0,5)
+chosen_word =hidden_word[random_word]
+    
+secret_word.append(chosen_word)
 
+
+    
 while guess != secret_word and not(out_of_guess):
     if guess_count < guess_limit:
         guess = input("Enter your guess human: ")
