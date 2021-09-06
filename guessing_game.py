@@ -1,8 +1,12 @@
-import random
+'''
+Program built using freecodecamp and Giraffe Academy/Mike Dane
+'''
+
+import random #imports the module
 
 
-secret_word=[]
-hidden_word =["Follow", "Peter", "Mike", "Ashley", "Giraffe","Dragon"]
+secret_word=[] #store the chosen word
+hidden_word =["Follow", "Peter", "Mike", "Ashley", "Giraffe","Dragon"] #list of words to choose from
 guess=[]
 guess_count = 0
 guess_limit = 3
