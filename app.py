@@ -20,7 +20,7 @@ def run_test(questions):
         answer = input(question.prompt)
         if answer == question.answer:
             score +=1
-    print("you got " + str(score) +"/" + str(len(questions)) + "correct")
+    print("you got " + str(score) +"/" + str(len(questions)) + " correct")
 
 
 run_test(questions)
