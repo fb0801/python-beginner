@@ -21,3 +21,6 @@ def run_test(questions):
         if answer == question.answer:
             score +=1
     print("you got " + str(score) +"/" + str(len(questions)) + "correct")
+
+
+run_test(questions)

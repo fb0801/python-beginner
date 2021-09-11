@@ -1,5 +1,5 @@
 class Question:
-    def__init__(self, prompt, answer):
+    def __init__(self, prompt, answer):
         self.prompt = prompt
         self.answer = answer
 
